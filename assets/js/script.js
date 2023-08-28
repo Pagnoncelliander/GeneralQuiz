@@ -57,3 +57,18 @@ function displayQuestion() {
         showResult();
     }
 }
+
+/**this function will check each question and display the correct question */
+function checkAnswer(selectedIndex) {
+    const question = questions[currentQuestion];
+    if (selectedIndex === question.correctIndex) {
+        score++;
+    }
+
+    currentQuestion++;
+    nextButton.style.display = "block";
+
+    // Disable buttons after an answer is selected
+    const buttons = optionsElement.querySelectorAll("button");
+    buttons.forEach(button => button.disabled = true);
+}
