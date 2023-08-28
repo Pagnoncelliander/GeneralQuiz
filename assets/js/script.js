@@ -35,3 +35,25 @@ const NewGame = document.getElementById("new-game");
 
 let currentQuestion = 0;
 let score = 0;
+
+
+/** created a function "if" to display the question html, click and display botton */
+function displayQuestion() {
+    if (currentQuestion < questions.length) { /*se currentQuestion = 0 for menor que questionse questions nela*/
+        const question2 = questions[currentQuestion];/* na variavel question2 foi colocado quesitoins"questions" dentro do currentequestion */
+        questionElement.textContent = question2.question; /* questionElement recebe o texto e atribui question2 e quetion*/
+
+        optionsElement.innerHTML = "";
+        question2.options.forEach((option, correctIndex) => {
+            const button = document.createElement("button");
+            button.innerHTML = option.text;
+            button.addEventListener("click", () => checkAnswer(correctIndex));
+            optionsElement.appendChild(button);
+        });
+        nextButton.style.display = "block";
+        tryAgain.style.display = "none";
+        NewGame.style.display = "none";
+    } else {
+        showResult();
+    }
+}
