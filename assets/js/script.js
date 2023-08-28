@@ -72,3 +72,30 @@ function checkAnswer(selectedIndex) {
     const buttons = optionsElement.querySelectorAll("button");
     buttons.forEach(button => button.disabled = true);
 }
+
+
+//**this function will compare the score and currentquestion and advise if score is goods or should try again */
+function showResult() {
+    questionElement.style.display = "none";
+    optionsElement.style.display = "none";
+    nextButton.style.display = "none";
+    resultElement.style.display = "block";
+
+    /**getting element from inner1(windown) */
+    const NameLevel = window.location.search;
+    const searchParams = new URLSearchParams(NameLevel);
+    const param1 = searchParams.get('first_name');
+
+    if (score <= 2) {
+        Homepage();
+        resultElement.textContent = ` ${param1} Your score: ${score} out of ${questions.length} you can do better next time`;
+
+    } else if (score === currentQuestion) {
+        resultElement.textContent = ` ${param1} Your score: ${score} out of ${questions.length} Congratulation!!`;
+
+    } else if (score <= 4) {
+        resultElement.textContent = ` ${param1} Your score: ${score} out of ${questions.length} Almost there, try again! `;
+    };
+    NewGame.style.display = "block";
+
+}
