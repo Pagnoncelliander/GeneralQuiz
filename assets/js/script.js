@@ -99,3 +99,25 @@ function showResult() {
     NewGame.style.display = "block";
 
 }
+
+
+/**button to start quiz again */
+nextButton.addEventListener("click", () => {
+    const buttons = optionsElement.querySelectorAll("button");
+    buttons.forEach(button => button.disabled = false);
+
+    displayQuestion();
+});
+
+
+/**button start again */
+function Homepage() {
+    tryAgain.style.display = "block";
+    tryAgain.addEventListener("click", () => {
+        location.reload();
+    });
+};
+
+Homepage();
+
+displayQuestion();
