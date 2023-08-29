@@ -4,11 +4,19 @@
 ## PURPOSE
 This project i have developed a quiz game with different subjects to test theusers general knowledge , the user wil find the hisotry , geography and  sociology questions. 
 
-the user will test their knowledge about general subjects.
-this  is developed with javascript is easy to play with only one level game.
-the user can retart the game and end the game has a advise about player performance.
+* the user will test their knowledge about general subjects.
+* this  is developed with javascript is easy to play with only one level game.
+* the user can retart the game and end the game has a advise about player performance.
 
-STRUCTUERE
+ ## STRUCTUERE
+### FIRST PAGE SECTION
+
+The first page has been created to be easy to start the game , the user cannot start the game if no fill the box nickname or userName .
+
+  * I have use strong colors to be a featured page.
+  * after page filled with user name just press the button "lets run" to start the game.
+ 
+
 
 
 GALLERY IMAGE
