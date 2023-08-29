@@ -14,12 +14,25 @@ This project i have developed a quiz game with different subjects to test theuse
 The first page has been created to be easy to start the game , the user cannot start the game if no fill the box nickname or userName .
 
   * I have use strong colors to be a featured page.
-  * after page filled with user name just press the button "lets run" to start the game.
+  * After page filled with user name just press the button "lets run" to start the game.
+
+---imagem------
  
+### SECOND PAGE SECTION - QUESTIONS
 
+ * this page the user will see four alternative answers under the question.
+ * After choosing the corresponding answers, the user must click the 'Next' button.
 
+---imagem------
 
-GALLERY IMAGE
+ ## DESIGN OF PAGE
+---IMAGE--
+---IMAGE--
+
+## SCRIPT CODE MAP
+
+* created var list
+---image---
 
 TESTING
 test css
