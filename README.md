@@ -34,10 +34,23 @@ The first page has been created to be easy to start the game , the user cannot s
 * created var list
 ---image---
 
-TESTING
-test css
-test html
-test js
+  * created a function "if" to display the question html, click and display botton
+ ---image---
+  * this function will check each question and display the correct question
+    --image--
+    
+  * button to start again and reload quiz
+    --image--
+
+## TESTING
+
+* HTML No errors were returned when passing through the official W3C validator
+* CSS No errors were found when passing through the official (Jigsaw) validator
+
+I confirm the user easy access the lighthouse and check the performance to Desktop :
+--image--
+
+
 
 DEPLOIMENT
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
