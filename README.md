@@ -1,7 +1,7 @@
-GENERAL QUIZ RESPONSIVE
+## GENERAL QUIZ RESPONSIVE
 
 
-PURPOSE
+## PURPOSE
 This project i have developed a quiz game with different subjects to test theusers general knowledge , the user wil find the hisotry , geography and  sociology questions. 
 
 the user will test their knowledge about general subjects.
