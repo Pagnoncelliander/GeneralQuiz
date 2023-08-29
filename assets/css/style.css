@@ -6,7 +6,7 @@
   
 }
 body{
-    background: #013281;
+    background: #0c66f5;
  
 }
 
@@ -87,6 +87,11 @@ body{
     border-radius: 4px;
     cursor: pointer;
     display: block;
+}
+
+#options button:hover{
+    background: #fa9d9a;
+   
 }
 
 #next-button{
