@@ -1,4 +1,5 @@
 ## GENERAL QUIZ RESPONSIVE
+![responsive](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/c6371f8d-4a30-499f-a00c-9af9a19c4079)
 
 
 ## PURPOSE
