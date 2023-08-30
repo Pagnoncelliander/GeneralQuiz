@@ -52,8 +52,13 @@ The first page has been created to be easy to start the game , the user cannot s
 * CSS No errors were found when passing through the official (Jigsaw) validator
 
 I confirm the user easy access the lighthouse and check the performance to Desktop :
---image--
 
+![practice for desktop](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/9813964b-f4aa-40c4-896b-6cda855d4a26)
+
+
+I confirm the user easy access the lighthouse and check the performance to Mobile :
+
+![practice for smartphone ](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/b75c3a50-7b2f-4230-b87e-e24216cc3b6b)
 
 
 ## DEPLOIMENT
