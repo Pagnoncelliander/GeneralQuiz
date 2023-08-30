@@ -66,9 +66,17 @@ This section should describe the process you went through to deploy the project 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
+
+## MIDIA 
+
+The pictures used on the main page are from page creator used in other business years ago, the page creator has the copyright.
+The icons in the footer were taken from tutorial Love Running
 Once the master branch has been selected
 refreshed with a detailed ribbon display to indicate the successful deployment.
 link  - https://github.com/Pagnoncelliander/GeneralQuiz
 
 ### MEDIA
+
+The pictures used on the main page are from  photo stock photos website. Some part of sdeisgn 
+I took the second page of design html from youtube. 
 
