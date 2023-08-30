@@ -34,16 +34,17 @@ The first page has been created to be easy to start the game , the user cannot s
 
 ## SCRIPT CODE MAP
 
-* created var list
----image---
+* created variablo list and get elements of html index.
+![question](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/53732b64-22aa-4c51-ba09-49ddc32d99e4)
 
-  * created a function "if" to display the question html, click and display botton
- ---image---
-  * this function will check each question and display the correct question
-    --image--
+  * created a function displayQuestion to display the question to html, click and display botton, under I ahve created a function to check the answers.
+    ![display question](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/4d1c9f5b-5954-4817-9bc9-88d36156a9a2)
+
+  * this function I have applied an "if" and advise after the quiz is done! if users accepted all questions he's won the section game!!
+    ![result](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/2b2edee3-515a-4d4b-91f6-939c7d520289)
     
   * button to start again and reload quiz
-    --image--
+    ![button start again](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/945672cb-3901-4000-a181-0c14b16b77b7)
 
 ## TESTING
 
