@@ -3,11 +3,12 @@
 
 
 ## PURPOSE
-This project i have developed a quiz game with different subjects to test theusers general knowledge , the user wil find the hisotry , geography and  sociology questions. 
 
-* the user will test their knowledge about general subjects.
-* this  is developed with javascript is easy to play with only one level game.
-* the user can retart the game and end the game has a advise about player performance.
+In this project I have developed a quiz game with different subjects to test the user's general knowledge, the user will find the history, geography, and sociology questions. 
+
+* The user will test their knowledge about general subjects.
+* This is developed with JavaScript and is easy to play with only one level game.
+* The user can restart the game and end the game has an advice about player performance.
 
  ## STRUCTUERE
 ### FIRST PAGE SECTION
@@ -17,14 +18,15 @@ The first page has been created to be easy to start the game , the user cannot s
   * I have use strong colors to be a featured page.
   * After page filled with user name just press the button "lets run" to start the game.
 
----imagem------
+![FirstPage](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/9a136d53-2f4d-40a5-b26d-a5ef4c22c804)
+
  
 ### SECOND PAGE SECTION - QUESTIONS
 
- * this page the user will see four alternative answers under the question.
+ * On this page the user will see four alternative answers under the question.
  * After choosing the corresponding answers, the user must click the 'Next' button.
 
----imagem------
+![secondPage](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/0b9424da-e7bf-416b-82a8-8311babbe210)
 
  ## DESIGN OF PAGE
 ---IMAGE--
