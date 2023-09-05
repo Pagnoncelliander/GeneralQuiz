@@ -32,9 +32,6 @@ The first page has been created to be easy to start the game , the user cannot s
 
 ![answers](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/35f0e3ff-2bf8-4c2f-94c8-a42506d82fc8)
 
- ## DESIGN OF PAGE
----IMAGE--
----IMAGE--
 
 ## SCRIPT CODE MAP
 
