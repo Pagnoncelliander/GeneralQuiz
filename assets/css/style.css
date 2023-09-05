@@ -90,8 +90,11 @@ body{
 }
 
 #options button:hover{
-    background: #fa9d9a;
-   
+    background-color: #f56767;
+}
+
+#correct-answer{
+    color: #f56767;
 }
 
 #next-button{
@@ -177,9 +180,20 @@ body{
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .quiz{
-        width: 160px ;
-        margin-left: 30px;
+        width: 140px ;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .quiz{
+        width: 130px ;
+        margin-left: 50px;
+    }
+
+    #start-button {
+        margin-left: 0px;
     }
 }
