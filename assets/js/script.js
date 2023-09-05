@@ -15,9 +15,9 @@ const questions = [
         correctIndex: 3
     },
     {
-        question: "How many hearts does an octopus have?",
-        options: [{text:"3"}, {text:"1"}, {text:"2"}, {text:"4"}],
-        correctIndex: 0
+        question: "December 26th is known by what names in Ireland?",
+        options: [{text:"Christmas day"}, {text:"Saint Patrick's Day"}, {text:"Saint Stephen's"}, {text:"Irish Independence"}],
+        correctIndex: 2
     },
     {
         question: "How many hearts does an octopus have?",
@@ -27,12 +27,12 @@ const questions = [
     {
         question: "In what country was Elon Musk born?",
         options: [{text:"Canada"}, {text:"United State"}, {text:"England"}, {text:"South Africa"}],
-        correctIndex: 0
+        correctIndex: 3
     },
     {
         question: "On what continent would you find the world’s largest desert?",
         options: [{text:"Chile"}, {text:"Antarctica"}, {text:"Egypt"}, {text:"Afghanistan"}],
-        correctIndex: 0
+        correctIndex: 1
     },
   
 ];
@@ -119,11 +119,11 @@ function showResult() {
         Homepage();
         resultElement.innerHTML = ` ${param1} Your score: ${score} out of ${questions.length}<br> Don't focus on the loss, focus on the next win.<br> Please try Again!!`;
 
-    }else if (score === currentQuestion){
-        resultElement.innerHTML = ` ${param1} Your score: ${score} out of ${questions.length}<br Congratulation, You Won!!`;
-
-    }else if(score <= 4){
+    }else if (score <= 5){
         resultElement.innerHTML = ` ${param1} Your score: ${score} out of ${questions.length} <br> Almost there, Try Again! `;
+
+    }else if(score === currentQuestion){
+        resultElement.innerHTML = ` ${param1} Your score: ${score} out of ${questions.length}<br> Congratulation, You Won!!`;
     };
     NewGame.style.display = "block";
     correctAnswerElement.style.display = "none";
@@ -131,7 +131,7 @@ function showResult() {
 
 
     /**button to start quiz again */
-nextButton.addEventListener("click", () => {
+    nextButton.addEventListener("click", () => {
     const buttons = optionsElement.querySelectorAll("button");
     buttons.forEach(button => button.disabled = false);
 
