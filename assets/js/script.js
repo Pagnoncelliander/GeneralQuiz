@@ -14,6 +14,26 @@ const questions = [
         options: [{text:"London, England"}, {text:"Nice, France"}, {text:"Milan, Italy"}, {text:"Paris, France"}],
         correctIndex: 3
     },
+    {
+        question: "How many hearts does an octopus have?",
+        options: [{text:"3"}, {text:"1"}, {text:"2"}, {text:"4"}],
+        correctIndex: 0
+    },
+    {
+        question: "How many hearts does an octopus have?",
+        options: [{text:"3"}, {text:"1"}, {text:"2"}, {text:"4"}],
+        correctIndex: 0
+    },
+    {
+        question: "In what country was Elon Musk born?",
+        options: [{text:"Canada"}, {text:"United State"}, {text:"England"}, {text:"South Africa"}],
+        correctIndex: 0
+    },
+    {
+        question: "On what continent would you find the world’s largest desert?",
+        options: [{text:"Chile"}, {text:"Antarctica"}, {text:"Egypt"}, {text:"Afghanistan"}],
+        correctIndex: 0
+    },
   
 ];
 
