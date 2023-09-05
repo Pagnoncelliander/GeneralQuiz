@@ -28,6 +28,10 @@ The first page has been created to be easy to start the game , the user cannot s
 
 ![secondPage](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/0b9424da-e7bf-416b-82a8-8311babbe210)
 
+## ANSWER DISPLAY
+
+![answers](https://github.com/Pagnoncelliander/GeneralQuiz/assets/134398235/35f0e3ff-2bf8-4c2f-94c8-a42506d82fc8)
+
  ## DESIGN OF PAGE
 ---IMAGE--
 ---IMAGE--
